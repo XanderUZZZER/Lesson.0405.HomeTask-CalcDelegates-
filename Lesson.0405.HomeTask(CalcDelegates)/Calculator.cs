@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson._0405.HomeTask_CalcDelegates_
 {
     class Calculator
     {
-        //private delegate double OperationDelegate(double x, double y);
         private static Dictionary<char, Func<double, double, double>> operations =
-                        new Dictionary<char, Func<double, double, double>>
+                   new Dictionary<char, Func<double, double, double>>
                             {
                                 { '+', (x, y) => x + y },
                                 { '-', (x, y) => x - y },
