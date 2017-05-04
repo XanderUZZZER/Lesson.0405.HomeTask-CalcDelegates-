@@ -11,7 +11,7 @@ namespace Lesson._0405.HomeTask_CalcDelegates_
             string[] temp;
 
             Console.WriteLine("Lesson 0305 HomeTask\n");
-            Console.WriteLine("Input 2 numbers and operator to perform a calulation:\n");
+            Console.WriteLine("Input 2 numbers and operator to perform a calculation:\n");
             temp = Console.ReadLine().Split(' ');
 
             double.TryParse(temp[0], out num1);
